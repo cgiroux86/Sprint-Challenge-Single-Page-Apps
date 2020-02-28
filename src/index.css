@@ -37,3 +37,28 @@ main {
 header h1 {
   text-align: center;
 }
+
+.welcome-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.main-img {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.cont {
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+  background: lightgray;
+  padding-top: 20px;
+}
+.link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
