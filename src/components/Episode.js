@@ -25,13 +25,13 @@ const CustomText = styled(CardText)`
  font-weight: bold;
 `
 
-export default function LocationCard(props) {
+export default function EpisodeCard(props) {
   return (
     <Col xs='6' md='3' xl='3'>
 <CustomCard>
   <CardHeader><strong>Name:</strong> {props.name}</CardHeader>
-  <CustomText>Type: {props.type}</CustomText>  
-  <CardFooter>Dimension: {props.dimension}</CardFooter>
+  <CustomText>Type: {props.airDate}</CustomText>  
+  <CardFooter>Dimension: {props.episode}</CardFooter>
 </CustomCard>
 </Col>
 );

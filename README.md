@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client side routing allows the entire "single page" application to load at once, which doesn't require a hard refresh everytime the user goes to a new page. This is helpful for user experience and for those with slow internet speeds to avoid waiting everytime they go to a different page.
 
 ## Project Set Up
 
